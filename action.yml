@@ -1,0 +1,12 @@
+name: Gino Keva - Set
+description: Use Gino Keva to set a key/value in Git notes
+inputs:
+  key:
+    description: Key to set
+    required: true
+  value:
+    description: Value of key
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
